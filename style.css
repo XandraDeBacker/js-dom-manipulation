@@ -20,14 +20,14 @@
 
 /* Left top */
 .left-head {
-    height: 120px; 
+    height: 120px;
     display: flex;
     justify-content: flex-start
 }
 
 .left-head-corner {
     display: flex;
-    padding-top: 15px; 
+    padding-top: 15px;
     padding-left: 15px;
     background-color:#8C0003;
     height: 100px;
@@ -61,7 +61,7 @@
     height: 50px;
     width: 50px;
     background-color: lightseagreen;
-    border: 5px solid white; 
+    border: 5px solid white;
     background: radial-gradient(rgb(169, 248, 242) 20%, lightseagreen);
     border-radius: 50%;
     margin-right: 10px;
@@ -72,7 +72,7 @@
     margin: 3px 0 0 10px;
     background: #fff;
     opacity: 0.6;
-    border-radius: 15px 9px;	        
+    border-radius: 15px 9px;
 }
 
 .dot {
@@ -186,7 +186,7 @@ img {
 
 /* Left bottom */
 .left-footer {
-    margin-top: 35px; 
+    margin-top: 35px;
     margin-right: 20px;
     display: grid;
     grid-template-columns: 120px 160px 120px;
@@ -195,7 +195,7 @@ img {
 
 .foot-left {
     grid-area: grid1;
-    
+
     display: flex;
     justify-content: center;
 }
@@ -212,7 +212,29 @@ img {
     grid-area: grid3;
     display: flex;
     justify-content: center;
+
 }
+
+#searching {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#pokesearch input {
+  height: 36px;
+
+
+}
+
+#search label{
+  height: 36px;
+}
+
 
 .bigblue {
     height: 50px;
@@ -311,7 +333,7 @@ img {
 	left: 30px;
 	bottom: -30px;
     border-radius: 0 0 .25em .25em;
-    box-shadow: -2px 2px 0px 2px rgb(17, 17, 17);	
+    box-shadow: -2px 2px 0px 2px rgb(17, 17, 17);
 }
 .left {
 	top: 30px;
@@ -344,7 +366,7 @@ img {
     height: 50px;
     background: rgb(110,1,2);
     background: linear-gradient(90deg, rgba(110,1,2,1) 0%, rgba(164,0,4,1) 50%, rgba(110,1,2,1) 100%);
-    
+
 }
 
 .hol {
@@ -418,6 +440,16 @@ img {
 
 .blueboxes {
     margin-top: 15px;
+
+}
+
+#moving {
+  height: 80px;
+  overflow:scroll;
+  width: 300px;
+
+
+
 }
 
 .row {
@@ -428,8 +460,8 @@ img {
 }
 
 .bluebox {
-    width: 60px;
-    height: 40px;
+    width: 300px;
+    height: 30px;
     background-color: blue;
     background: linear-gradient(rgb(86, 143, 250), rgb(0, 102, 255));
     box-shadow: -4px 0px 1px 1px rgba(5,5,79,1);
@@ -498,7 +530,7 @@ img {
 
 .but-rect-yellow {
     height: 50px;
-    width: 150px;
+    width: 300px;
     border-radius: 0.7rem;
     background-color: rgb(255, 208, 0);
     border: 2px solid rgb(131, 58, 9);
@@ -507,7 +539,7 @@ img {
 }
 
 .foot-r-bottom {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end

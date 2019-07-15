@@ -147,9 +147,26 @@
                 pokemon_image
                 pokemon_weight
 
+
             The goal of the exercise is for you to display this information in your HTML.
             You can do this by placing empty tags in your HTML, and the assigning their content with JS.
             But you can also generate the HTML with document.createElement().
             */
+            //hieronder de code geschreven om te verwijzen naar de zelf geschreven code (id) in html:
+            document.getElementById("poke1").innerHTML= pokemon_name
+
+            document.getElementById("identity").innerHTML= pokemon_id
+
+            document.getElementById("moving").innerHTML=pokemon_moves
+
+            document.getElementById("abill").innerHTML=pokemon_abilities
+
+            document.getElementById("weighing").innerHTML=pokemon_weight
+
+            document.getElementById("poks").src=pokemon_image
+
+
+
+
 
         }

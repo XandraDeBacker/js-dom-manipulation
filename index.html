@@ -10,13 +10,19 @@
     <title>Pokedex</title>
 </head>
 <body>
-    <input type="text" id="pokesearch" name="pokesearch" placeholder="Pikachu">
-    <label for="pokesearch"><button id="search">Search!</button></label>
 
-    <button id="previous">&lt;</button>
-    <button id="next">&gt;</button>
+
+    <!-- <button id="previous">&lt;</button> -->
+    <!--..en de button id next stond hieronder en zal gezet worden bij  om next te tonen  -->
+
 
     <ul id="list"></ul>
+
+    <div>
+
+    </div>
+
+
 
     <div class="pokedex">
         <div class="poke-left">
@@ -43,8 +49,8 @@
                     </div>
                     <div class="display-middle">
                         <div class="jiggly">
-                            <img src="jigglypuff.png" alt="Jigglypuff">
-                        </div>
+                            <img id=poks >
+                          </div>
                     </div>
                     <div class="display-bottom">
                         <div class="triangle"></div>
@@ -66,19 +72,24 @@
                         <div class="knop orange"></div>
                     </div>
                     <div class="numberbox">
-                        <div class="number">39</div>
+                        <div class="number" id="identity"></div>
                     </div>
                 </div>
                 <div class="foot-right">
                     <div class="d-pad">
                         <div class="button d up"><i class="fas fa-caret-up"></i></div>
-                        <div class="button d right"><i class="fas fa-caret-right"></i></div>
+                        <div class="button d right" id="next"><i class="fas fa-caret-right"></i></div>
+
                         <div class="d middle"></div>
                         <div class="button d down"><i class="fas fa-caret-down"></i></div>
-                        <div class="button d left"><i class="fas fa-caret-left"></i></div>
+                        <div class="button d left"id="previous"><i class="fas fa-caret-left"></i></div>
                     </div>
                 </div>
             </div>
+            <div id ="searching">
+              <input type="text" id="pokesearch" name="pokesearch" placeholder="Pikachu">
+              <label for="pokesearch"><button id="search">Search!</button></label>
+          </div>
         </div>
         <div class="poke-middle">
             <div class="bol"></div>
@@ -105,21 +116,15 @@
                 </div>-->
             </div>
             <div class="right-main">
-                <div class="greenbox">Jigglypuff</div>
+                <div class="greenbox" id="poke1"></div>
                 <div class="blueboxes">
                     <div class="row">
-                        <div class="bluebox"></div>
-                        <div class="bluebox"></div>
-                        <div class="bluebox"></div>
-                        <div class="bluebox"></div>
-                        <div class="bluebox"></div>
+                        <div class="bluebox1" id="moving"></div>
+
                     </div>
                         <div class="row">
-                        <div class="bluebox"></div>
-                        <div class="bluebox"></div>
-                        <div class="bluebox"></div>
-                        <div class="bluebox"></div>
-                        <div class="bluebox"></div>
+                        <div class="bluebox" id="weighing"></div>
+
                     </div>
                 </div>
             </div>
@@ -142,8 +147,8 @@
                     <div class="but-yellow"><i class="fas fa-caret-left"></i></div>
                 </div>
                 <div class="foot-r-bottom">
-                    <div class="but-rect-yellow"></div>
-                    <div class="but-rect-yellow"></div>
+                    <div class="but-rect-yellow" id="abill"></div>
+
                 </div>
             </div>
         </div>
